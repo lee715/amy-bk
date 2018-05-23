@@ -1,0 +1,27 @@
+{
+  "name": "amy-bk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "2",
+    "config": "^1.28.1",
+    "ioredis": "^3.2.2",
+    "koa": "^2.4.1",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.3.0",
+    "koa-session": "^5.8.1",
+    "limbo": "^0.5.5",
+    "lodash": "^4.17.4",
+    "moment": "^2.22.1",
+    "mongoose": "^5.0.16",
+    "thunk-redis": "^2.1.6",
+    "vfw": "^1.3.31",
+    "vfw-tb": "^1.0.6"
+  }
+}

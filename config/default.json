@@ -1,0 +1,13 @@
+{
+  "port": 5000,
+  "session": {
+    "domain": "lc.ci",
+    "key": "lc.sess",
+    "httpOnly": true,
+    "signed": true,
+    "maxAge": 86400000,
+    "secrets": ["!@#123"]
+  },
+  "db_url": "mongodb://127.0.0.1:27017/anmoyi",
+  "redis_array": "127.0.0.1:6379"
+}
