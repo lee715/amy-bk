@@ -1,0 +1,11 @@
+{
+  "port": 5000,
+  "session": {
+    "domain": "ups-aiyan.com",
+    "key": "lc.sess",
+    "httpOnly": true,
+    "signed": true,
+    "maxAge": 86400000,
+    "secrets": ["!@#123"]
+  }
+}
